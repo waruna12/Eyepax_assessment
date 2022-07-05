@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  /* opacity: 0.3; */
+}
+
+.topleft {
+  position: absolute;
+  top: 40%;
+  left: 6vw;
+
+  /* position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px; */
+}
+
+.text__style {
+  font-size: 50px;
+  font-family: "Playfair Display";
+  color: white;
+  font-weight: 600;
+  line-height: 99%;
+  letter-spacing: -0.03em;
+  font-style: normal;
+}
+
+.para__style {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 5vh;
+}
+
+.btn__style {
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 5vh;
+}
