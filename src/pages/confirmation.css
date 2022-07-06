@@ -1,0 +1,75 @@
+.confimation_container {
+  position: relative;
+}
+
+.topcenter_confirmation {
+  position: absolute;
+  top: 15%;
+  /* left: 16px; */
+  font-size: 18px;
+  width: 100%;
+  text-align: center;
+  margin-top: 15vh;
+}
+
+.confirmation__text {
+  font-size: 50px;
+  font-family: "Playfair Display";
+  color: rgb(10, 10, 10);
+  font-weight: 600;
+  line-height: 99%;
+  letter-spacing: -0.03em;
+  font-style: normal;
+}
+
+.aboutus_para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 150%;
+  color: #000000;
+  margin-top: 5vh;
+}
+
+.topcenter_confirmation h6 {
+  font-family: "Poppins";
+  font-style: bold;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  color: #b99a5f;
+  margin-top: 2vh;
+}
+
+.aboutus_btn {
+  color: white;
+  padding: 13px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 5vh;
+}
+
+.topcenter_confirmation img {
+  height: 50px;
+  width: 50px;
+  margin-top: 5vh;
+}
+
+.email_tele {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 99%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #a5a5a5 !important;
+}

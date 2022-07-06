@@ -1,6 +1,7 @@
 import React from "react";
 import backgroundImage from "../../images/background.png";
 import "./background.css";
+import { Link } from "react-router-dom";
 
 function Background() {
   return (
@@ -17,7 +18,9 @@ function Background() {
           unique & customizable result. <br /> t For your convenience, Schedule
           your reservation today!
         </p>
-        <button className="btn__style">Book now</button>
+        <Link to="/booking/Haircut">
+          <button className="btn__style">Book now</button>
+        </Link>
       </div>
     </div>
   );

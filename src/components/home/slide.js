@@ -4,8 +4,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { serviceType } from "../../data";
 import "./slide.css";
+import { Link } from "react-router-dom";
 
-function Slide() {
+function Slide(props) {
   const settings = {
     dots: true,
     infinite: false,
@@ -17,6 +18,7 @@ function Slide() {
 
   return (
     <div className="slide">
+      <h1 className="slide_header">Services</h1>
       <Slider {...settings}>
         {serviceType.map((item) => (
           <div className="card">
@@ -27,8 +29,14 @@ function Slide() {
 
             <div className="card-buttom">
               <h3>{item.des}</h3>
-              {/* <p className="category">{item.category}</p> */}
-              <button className="btn-style">MAKE A RESERVATION</button>
+              <Link
+                to={{
+                  pathname: `/services/${item.title}`,
+                  state: { stateParam: true },
+                }}
+              >
+                <button className="btn-style">MAKE A RESERVATION</button>
+              </Link>
             </div>
           </div>
         ))}

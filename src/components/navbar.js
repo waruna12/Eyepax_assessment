@@ -38,7 +38,7 @@ function Navbar(props) {
           {/* <a href="#" className="nav_link">
             About
           </a> */}
-          <Link to="about" className="nav_link">
+          <Link to="/" className="nav_link">
             {" "}
             About
           </Link>
@@ -47,7 +47,7 @@ function Navbar(props) {
           {/* <a href="#" className="nav_link">
             Services
           </a> */}
-          <Link to="/services" className="nav_link">
+          <Link to="/services/Haircut" className="nav_link">
             {" "}
             Services
           </Link>
@@ -56,12 +56,12 @@ function Navbar(props) {
           {/* <a href="#" className="nav_link">
             Shop
           </a> */}
-          <Link to="/shop" className="nav_link">
+          <Link to="/" className="nav_link">
             Shop
           </Link>
         </li>
         <li className="nav_item">
-          <Link to="/booking" className="nav_link">
+          <Link to="/booking/Haircut" className="nav_link">
             <button className="nav__btn">Book now</button>
           </Link>
         </li>

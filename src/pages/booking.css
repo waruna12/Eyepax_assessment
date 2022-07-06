@@ -1,0 +1,116 @@
+.grid-container_booking {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #ffffff;
+  padding: 0px;
+}
+
+.grid-item_left_booking {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  padding: 0;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 6vh;
+}
+
+.grid-item_left_booking h3 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 99%;
+  text-align: left;
+  letter-spacing: -0.03em;
+  padding-left: 2.5vw;
+  margin-bottom: 7vh;
+}
+
+.grid-item_right_booking {
+  background-color: #ffffff;
+  border: none;
+  padding: 0;
+  font-size: 30px;
+  text-align: right;
+}
+
+.grid-item_right_booking img {
+  width: 80%;
+  height: 85vh;
+}
+
+input[type="text"],
+select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="datetime-local"],
+select {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+} */
+
+.btn_booking {
+  text-align: left;
+  padding-left: 2.5vw;
+}
+
+.btn_booking button {
+  color: rgb(255, 255, 255);
+  padding: 10px 28px;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  background-color: transparent;
+  border: 2px solid #b99a5f;
+  background-color: #b99a5f;
+  border-radius: 5px;
+  margin-top: 5vh;
+}
+
+.total h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 99%;
+  letter-spacing: -0.03em;
+  padding-top: 10px;
+  padding-left: 2.5vw;
+  text-align: left;
+}
