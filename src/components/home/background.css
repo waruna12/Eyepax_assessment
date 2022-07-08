@@ -8,6 +8,12 @@ img {
   /* opacity: 0.3; */
 }
 
+/* .main_background_img {
+  background-color: red;
+  color: black;
+  background: black;
+} */
+
 .topleft {
   position: absolute;
   top: 40%;

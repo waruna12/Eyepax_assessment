@@ -7,8 +7,6 @@ const Services = (props) => {
   const { type } = useParams();
   const stateParamVal = useLocation().state;
 
-  console.log("props parameter value " + type);
-  console.log("props state value " + stateParamVal);
   return (
     <div className="grid-container">
       <div className="grid-item_left">

@@ -6,7 +6,11 @@ import { Link } from "react-router-dom";
 function Background() {
   return (
     <div className="container">
-      <img src={backgroundImage} alt="background_image" />
+      <img
+        src={backgroundImage}
+        alt="background_image"
+        className="main_background_img"
+      />
       <div className="topleft">
         <text className="text__style">
           Always make room for <br /> beauty in your life

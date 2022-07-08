@@ -13,10 +13,6 @@ import Services from "./pages/services";
 import Booking from "./pages/booking";
 import Confirmation from "./pages/confirmation";
 
-// import Background from "./components/Home/Background";
-// import Slide from "./components/Home/Slide";
-// import AboutUs from "./components/Home/AboutUs";
-
 function App(props) {
   return (
     // <div className="App">

@@ -104,13 +104,13 @@ input[type="submit"]:hover {
 }
 
 .total h6 {
-  font-family: "Poppins";
+  /* font-family: "Poppins"; */
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 99%;
   letter-spacing: -0.03em;
-  padding-top: 10px;
+  padding-top: 3vh;
   padding-left: 2.5vw;
   text-align: left;
 }

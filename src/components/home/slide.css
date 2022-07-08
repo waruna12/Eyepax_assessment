@@ -92,3 +92,11 @@ body {
   border-radius: 5px;
   margin-top: 5vh;
 }
+
+.slick-next:before {
+  color: black;
+}
+
+.slick-prev:before {
+  color: black;
+}
