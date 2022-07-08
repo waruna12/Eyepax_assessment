@@ -110,6 +110,8 @@ const Booking = (props) => {
     }
   }, [validate]);
 
+  console.log(process.env.REACT_APP_STRIPE_SECRET_KEY);
+
   return (
     <div className="grid-container_booking">
       <div className="grid-item_left_booking">
@@ -178,10 +180,11 @@ const Booking = (props) => {
           </div> */}
           <div hidden={hidebtn}>
             <StripeCheckout
-              stripeKey={
-                "pk_test_51LIUX6EspvFf5ldRSQy1urPUcIDDN0ypCUwa5DzJC9XbSPdu72BykZae7kiE1H8lKXA54s0ZGIYJB0P0t2NAcMGe005BYSbzJe" ||
-                ""
-              }
+              // stripeKey={
+              //   "pk_test_51LIUX6EspvFf5ldRSQy1urPUcIDDN0ypCUwa5DzJC9XbSPdu72BykZae7kiE1H8lKXA54s0ZGIYJB0P0t2NAcMGe005BYSbzJe" ||
+              //   ""
+              // }
+              stripeKey={process.env.REACT_APP_STRIPE_SECRET_KEY || ""}
               token={handleToken}
               name=""
               panelLabel={`Pay Now`}
